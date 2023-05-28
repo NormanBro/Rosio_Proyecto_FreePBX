@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 180px;
+}
+.Content .Title{
+    background-color: #1f4bc4;
+    width: 80%;
+}
+.Content .Title h2{
+    font-size: 32px;
+    margin: 10px;
+    color: white;
+}
+
+.Content .Box-Table{
+    width: 80%;
+}
+
+.Content .Pagination{
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    margin-right: 90px;
+}
+.Content .Pagination div{
+    display: flex;
+}
+
+.Content .Pagination div p{
+    width: 32px;
+    height: 32px;
+    font-size: 32px;
+    text-align: center;
+    color: black;
+    background-color: #dddddd;
+    padding: 5px 10px; 
+}
+.Content .Pagination div .Pag-buttom{
+    background-color: #1f4bc4;
+    color: white;
+    font: bold;
+    cursor: pointer;
+}
+.btn-left-border-rd{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.btn-right-border-rd{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+table{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    word-wrap: break-word;
+    font-size: 18px;
+}
+
+  
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
